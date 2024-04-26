@@ -1,0 +1,11 @@
+# Define aliases for sfaCS scripts
+alias generateP1='PYTHONPATH=/home/kali/Documents/sfaCS/Scripts python3 /home/kali/Documents/sfaCS/Scripts/generateP1.py'
+alias generateP2='PYTHONPATH=/home/kali/Documents/sfaCS/Scripts python3 /home/kali/Documents/sfaCS/Scripts/generateP2.py'
+alias generateP3='PYTHONPATH=/home/kali/Documents/sfaCS/Scripts python3 /home/kali/Documents/sfaCS/Scripts/generateP3.py'
+alias generateP4='PYTHONPATH=/home/kali/Documents/sfaCS/Scripts python3 /home/kali/Documents/sfaCS/Scripts/generateP4.py'
+alias generateP5='PYTHONPATH=/home/kali/Documents/sfaCS/Scripts python3 /home/kali/Documents/sfaCS/Scripts/generateP5.py'
+alias generateP6='PYTHONPATH=/home/kali/Documents/sfaCS/Scripts python3 /home/kali/Documents/sfaCS/Scripts/generateP6.py'
+alias generateP7='PYTHONPATH=/home/kali/Documents/sfaCS/Scripts python3 /home/kali/Documents/sfaCS/Scripts/generateP7.py'
+
+alias welcome='PYTHONPATH=/home/kali/Documents/sfaCS/Scripts python3 /home/kali/Documents/sfaCS/Scripts/welcome.py'
+alias submit='PYTHONPATH=/home/kali/Documents/sfaCS/Scripts python3 /home/kali/Documents/sfaCS/Scripts/submit.py'
