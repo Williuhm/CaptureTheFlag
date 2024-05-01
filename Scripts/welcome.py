@@ -3,7 +3,6 @@ import csv
 import hashlib
 import subprocess
 
-subprocess.run(['bash', '/home/kali/Documents/sfaCS/Scripts/alias.sh'])
 # Problem number
 prob = "problem0"
 # Generate a random flag for the problem

@@ -1,4 +1,5 @@
 sudo apt-get install gcc-multilib
+sudo sysctl -w kernel.randomize_va_space=0
 ulimit -c unlimited 
 gcc -O0 -fno-builtin -fno-stack-protector -m32 -Wall -std=c11 -ggdb -z execstack -o vuln vuln.c
 python3 -c "print('a' * 32)" | ./vuln  
